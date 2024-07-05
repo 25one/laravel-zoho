@@ -41,10 +41,6 @@ class AddDeal extends GuzzleBase {
 		];	
 	}
 
-	public function funcMake() {
-	    return $this->funcSend();
-	}
-
 }
 
 ?>
