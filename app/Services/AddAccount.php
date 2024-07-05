@@ -41,10 +41,6 @@ class AddAccount extends GuzzleBase {
 		];	
 	}
 
-	public function funcMake() {
-	    return $this->funcSend();
-	}
-
 }
 
 ?>
