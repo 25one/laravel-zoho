@@ -66,7 +66,7 @@ class ZohoController extends Controller
         $this->addAccount->website = $request->website;
         $this->addAccount->phone = $request->phone;
 
-        return $this->addAccount->funcMake();
+        return $this->addAccount->funcSend();
     }  
 
     /**
@@ -81,7 +81,7 @@ class ZohoController extends Controller
         $this->addDeal->dealName = $request->dealName;
         $this->addDeal->stage = $request->stage ;
 
-        return $this->addDeal->funcMake();
+        return $this->addDeal->funcSend();
     }     
 
 }
