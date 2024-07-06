@@ -30,10 +30,6 @@ class Oauth extends GuzzleBase {
 	    ];
 	}
 
-	public function funcMake() {
-	    return $this->funcSend();
-	}
-
 }
 
 ?>
