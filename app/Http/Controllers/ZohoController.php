@@ -34,7 +34,7 @@ class ZohoController extends Controller
      */
     public function index(Request $request, Oauth $oauth)
     {
-        $oauthResult = json_decode($oauth->funcMake());                    
+        $oauthResult = json_decode($oauth->funcSend());                    
 
         return view('zoho.index', ['access_token' => $oauthResult->access_token]);
     }
